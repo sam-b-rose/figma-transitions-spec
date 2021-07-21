@@ -23,8 +23,8 @@ class App extends React.Component {
 
   render() {
     return <div>
-      <img src={require('./logo.svg')} />
-      <h2>Rectangle Creator</h2>
+      <img src={require('./logo.svg')} alt="logo" />
+      <h2 className="bg-gray-800">Rectangle Creator</h2>
       <p>Count: <input ref={this.countRef} /></p>
       <button id="create" onClick={this.onCreate}>Create</button>
       <button onClick={this.onCancel}>Cancel</button>
