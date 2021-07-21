@@ -1,13 +1,6 @@
-# React 
+# Transitions Spec
 
-<img src="../_screenshots/webpack.png" width="400" />
-
-Creates rectangles (same as the [Webpack sample plugin][webpack]).
-
-This demonstrates:
-
-- bundling plugin code using Webpack, and
-- using React with TSX.
+Generate specs to describe and visualized transitions.
 
 The main plugin code is in `src/code.ts`. The HTML for the UI is in
 `src/ui.html`, while the embedded JavaScript is in `src/ui.tsx`.
@@ -17,7 +10,13 @@ your plugin.
 
 To build:
 
-    $ npm install
-    $ npx webpack
+```shell
+npm install
+npm run build
+```
 
-[webpack]: ../webpack/
+To develop in watch mode:
+
+```shell
+npm run dev
+```
